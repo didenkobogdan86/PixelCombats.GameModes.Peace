@@ -57,8 +57,8 @@ Ui.getContext().Hint.Value = "Hint/BuildBase";
 
 // ������������ ���������
 var inventory = Inventory.GetContext();
-inventory.Main.Value = false;
-inventory.Secondary.Value = false;
+inventory.Main.Value = true;
+inventory.Secondary.Value = true;
 inventory.Melee.Value = true;
 inventory.Explosive.Value = false;
 inventory.Build.Value = true;
